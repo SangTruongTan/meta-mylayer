@@ -11,3 +11,6 @@ IMAGE_ROOTFS_SIZE ?= "16384"
 IMAGE_INSTALL += "usbutils"
 
 IMAGE_FEATURES += "ssh-server-dropbear splash tools-sdk"
+
+# My Hello world program
+IMAGE_INSTALL += "myhello"
