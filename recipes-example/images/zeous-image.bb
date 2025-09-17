@@ -17,3 +17,6 @@ IMAGE_INSTALL += "myhello"
 
 # My staticlib
 IMAGE_INSTALL += "mystaticlib-staticdev mystaticlib-dev"
+
+# My dynamic library
+IMAGE_INSTALL += "mydynamiclib mydynamiclib-bin mydynamiclib-dev"
