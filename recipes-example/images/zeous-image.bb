@@ -14,3 +14,6 @@ IMAGE_FEATURES += "ssh-server-dropbear splash tools-sdk"
 
 # My Hello world program
 IMAGE_INSTALL += "myhello"
+
+# My staticlib
+IMAGE_INSTALL += "mystaticlib-staticdev mystaticlib-dev"
