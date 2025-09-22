@@ -19,4 +19,8 @@ IMAGE_INSTALL += "myhello"
 IMAGE_INSTALL += "mystaticlib-staticdev mystaticlib-dev"
 
 # My dynamic library
-IMAGE_INSTALL += "mydynamiclib mydynamiclib-bin mydynamiclib-dev"
+IMAGE_INSTALL += "mydynamiclib mydynamiclib-dev"
+
+# Using static lib from other recipe
+IMAGE_INSTALL += "mydepends"
+
